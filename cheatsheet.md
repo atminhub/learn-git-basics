@@ -29,3 +29,9 @@
 
 ##### Commits changes
 		git commit -m 'explanation of change'
+
+##### To merge with master
+		git checkout master
+		git pull origin master
+		git checkout update-cheatsheet
+		git merge master
